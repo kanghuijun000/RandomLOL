@@ -1,0 +1,19 @@
+{
+  "name": "RandomLOL",
+  "short_name": "RandomLOL",
+  "description": "라인, 포지션, 챔피언을 독립적으로 무작위 추첨하는 앱",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#11131b",
+  "theme_color": "#11131b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
