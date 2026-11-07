@@ -8,6 +8,7 @@
   <title>RandomLOL</title>
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon.svg">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -17,31 +18,25 @@
       <div><h1>Random<span>LOL</span></h1><p>YOUR RANDOM LEAGUE CHALLENGE</p></div>
       <div class="status" id="championStatus">챔피언 불러오는 중</div>
     </header>
-
     <section class="intro">
       <p class="eyebrow">NO RULES. JUST RANDOM.</p>
       <h2>오늘의 플레이는<br><span>운명에 맡겨봐.</span></h2>
       <p class="description">라인, 포지션, 챔피언을 각각 독립적으로 추첨해.</p>
     </section>
-
     <section class="results" aria-live="polite">
       <article class="result-card">
         <div class="card-head"><span class="number">01</span><span class="card-label">LANE</span></div>
-        <div class="result-value" id="laneResult">?</div>
-        <div class="card-foot">라인</div>
+        <div class="result-value" id="laneResult">?</div><div class="card-foot">라인</div>
       </article>
       <article class="result-card">
         <div class="card-head"><span class="number">02</span><span class="card-label">STYLE</span></div>
-        <div class="result-value" id="styleResult">?</div>
-        <div class="card-foot">포지션</div>
+        <div class="result-value" id="styleResult">?</div><div class="card-foot">포지션</div>
       </article>
       <article class="result-card champion-card">
         <div class="card-head"><span class="number">03</span><span class="card-label">CHAMPION</span></div>
-        <div class="result-value" id="championResult">?</div>
-        <div class="card-foot" id="championCount">챔피언</div>
+        <div class="result-value" id="championResult">?</div><div class="card-foot" id="championCount">챔피언</div>
       </article>
     </section>
-
     <button class="draw-button" id="drawButton" disabled>
       <span class="dice">⚄</span><span>무작위 뽑기</span><span class="arrow">↗</span>
     </button>
