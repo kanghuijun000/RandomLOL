@@ -1,4 +1,4 @@
-const CACHE_NAME = "randomlol-cache-v1";
+const CACHE_NAME = "randomlol-cache-v2";
 const APP_FILES = ["./", "./index.html", "./style.css", "./script.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {
