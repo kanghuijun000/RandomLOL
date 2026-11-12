@@ -9,7 +9,7 @@ const LANE_CHAMPION_IDS = {
     "Irelia","Jax","Jayce","Kayle","Kennen","KSante","Malphite","Mordekaiser",
     "Nasus","Olaf","Ornn","Pantheon","Poppy","Quinn","Renekton","Riven",
     "Rumble","Sett","Shen","Singed","Sion","TahmKench","Teemo","Trundle",
-    "Tryndamere","Urgot","Volibear","Wukong","Yone","Yorick","Gragas"
+    "Tryndamere","Urgot","Volibear","MonkeyKing","Yone","Yorick","Gragas"
   ],
   "정글": [
     "Amumu","Belveth","Brand","Briar","Diana","Ekko","Elise","Evelynn",
@@ -17,7 +17,7 @@ const LANE_CHAMPION_IDS = {
     "Kayn","KhaZix","Kindred","LeeSin","Lillia","MasterYi","Nidalee","Nocturne",
     "Nunu","Olaf","Pantheon","Poppy","Rammus","RekSai","Rengar","Sejuani",
     "Shaco","Shyvana","Skarner","Taliyah","Talon","Trundle","Udyr","Vi",
-    "Viego","Volibear","Warwick","Wukong","XinZhao","Zac"
+    "Viego","Volibear","Warwick","MonkeyKing","XinZhao","Zac"
   ],
   "미드": [
     "Ahri","Akali","Anivia","Annie","AurelionSol","Azir","Cassiopeia","Corki",
