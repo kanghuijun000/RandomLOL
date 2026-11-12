@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#11131b">
-  <meta name="description" content="라인, 포지션, 챔피언을 완전히 독립적으로 무작위 추첨하는 RandomLOL">
+  <meta name="description" content="무작위 라인과 해당 라인에 어울리는 챔피언, 포지션을 추첨하는 RandomLOL">
   <title>RandomLOL</title>
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
@@ -21,7 +21,7 @@
     <section class="intro">
       <p class="eyebrow">NO RULES. JUST RANDOM.</p>
       <h2>오늘의 플레이는<br><span>운명에 맡겨봐.</span></h2>
-      <p class="description">라인, 포지션, 챔피언을 각각 독립적으로 추첨해.</p>
+      <p class="description">라인은 무작위로, 챔피언은 해당 라인에 어울리게 추첨해.</p>
     </section>
     <section class="results" aria-live="polite">
       <article class="result-card">
@@ -34,13 +34,13 @@
       </article>
       <article class="result-card champion-card">
         <div class="card-head"><span class="number">03</span><span class="card-label">CHAMPION</span></div>
-        <div class="result-value" id="championResult">?</div><div class="card-foot" id="championCount">챔피언</div>
+        <div class="result-value" id="championResult">?</div><div class="card-foot" id="championCount">라인별 챔피언</div>
       </article>
     </section>
     <button class="draw-button" id="drawButton" disabled>
       <span class="dice">⚄</span><span>무작위 뽑기</span><span class="arrow">↗</span>
     </button>
-    <p class="rule-note"><span></span> 세 항목은 서로 영향을 주지 않고 각각 추첨돼.</p>
+    <p class="rule-note"><span></span> 라인과 챔피언은 연관되며, 포지션은 독립 추첨돼.</p>
     <p class="error" id="errorMessage" role="alert"></p>
     <footer>RANDOMLOL <span>·</span> JUST FOR FUN</footer>
   </main>
